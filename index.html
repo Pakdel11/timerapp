@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c6484811eb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>App Mobile</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="nav-line"></div>
+            <div class="nav-line"></div>
+            <div class="nav-line"></div>
+        </div>
+        <div class="nav-closeBtn">
+            <div class="closeBtn"><i class="far fa-times-circle"></i></div>
+        </div>
+        <div class="links">
+            <a href="#" class="link">Home</a>
+            <a href="#" class="link">Download</a>
+            <a href="#" class="link">Timeer</a>
+            <a href="#" class="link">Clocks</a>
+            <a href="#" class="link">About</a>
+        </div>
+    </header>
+
+
+    <!-- main -->
+
+    <main>
+        <section id="one">
+            <div class="time-cont">
+                <div class="time-counter">
+
+                    <p id="hours">00</p>
+                    <p>:</p>
+                    <p id="minut">00</p>
+                    <p>:</p>
+                    <p id="hour">00</p>
+                </div>
+            </div>
+            <div class="kilometer-mins">
+                <div class="km">
+                    <div class="time-km">
+                        <h1 class="klk">23.45</h1>
+                        <P>km</P>
+                    </div>
+                    <p class="dts">Total distance</p class="dts">
+                </div>
+                <div class="min">
+                    <div class="time-km">
+                        <h1 class="klk">23.45</h1 class="klk">
+                        <P>km</P>
+                    </div>
+                    <p class="dts">Aveg time/mins</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="two">
+
+            <div class="container">
+                <div class="stopCircle" onclick="stopTimer()">
+                    <p>POUSED</p>
+                </div>
+                <div class="restart">
+                    <p>restart</p>
+                </div>
+                <div class="circle">
+                    <p id="start">START</p>
+                    <p id="pous">PAUSE</p>
+
+                </div>
+                <div class="stop">
+                    <p>STOP</p>
+                </div>
+                <p style="color: white;" id="clockan"></p>
+
+                <div class="resolt">
+                    <p>Let's workout</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="three">
+            <div class="contents">
+                <div class="data">
+                    <p class="Sbj">Date</p>
+                    <p class="info-sbj">0...</p>
+                </div>
+                <div class="data">
+                    <p class="Sbj">Distance</p>
+                    <p class="info-sbj">0...</p>
+                </div>
+                <div class="data">
+                    <p class="Sbj">Duration</p>
+                    <p class="info-sbj">0...</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
